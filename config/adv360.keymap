@@ -9,8 +9,8 @@
  * edit it directly.
  */
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 900  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 #include <dt-bindings/zmk/stp.h>
 #include <behaviors.dtsi>
@@ -24,9 +24,9 @@
     flavor = "tap-preferred";
 };
 
-&mmv { time-to-max-speed-ms = <500>; };
+&mmv { time-to-max-speed-ms = <300>; };
 
-&msc { time-to-max-speed-ms = <500>; };
+&msc { time-to-max-speed-ms = <300>; };
 
 / {
     behaviors {
