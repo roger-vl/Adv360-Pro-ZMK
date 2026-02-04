@@ -49,11 +49,11 @@
 
         default_layer {
             bindings = <
-&none    &none             &none               &none                   &none        &none    &none                                                                        &mo 5      &none  &none        &none                   &none                   &none                      &to 7
-&kp TAB  &kp Q             &mt LC(LS(LALT)) W  &mt LC(LS(LA(LGUI))) E  &kp R        &kp T    &none                                                                        &none      &kp Y  &kp U        &mt LS(LA(LC(LCMD))) I  &mt LC(LS(LEFT_ALT)) O  &kp P                      &none
-&kp ESC  &mt LEFT_SHIFT A  &mt LCMD S          &mt LEFT_ALT D          &mt LCTRL F  &kp G    &none          &none                            &none      &none  &none      &none      &kp H  &mt RCTRL J  &mt RIGHT_ALT K         &mt RCMD L              &mt RIGHT_SHIFT SEMICOLON  &none
-&none    &kp Z             &lt 2 X             &lt 3 C                 &lt 1 V      &lt 4 B                                                  &none      &none                        &kp N  &kp M        &kp COMMA               &kp DOT                 &kp FSLH                   &none
-&none    &none             &none               &none                   &none                 &kp BACKSPACE  &mt LS(LA(LC(J))) LS(LA(LC(F)))  &none      &none  &kp ENTER  &kp SPACE         &none        &none                   &none                   &none                      &none
+&none    &none             &none               &none                   &none       &none    &none                                                                        &mo 5      &none  &none       &none                   &none                   &none                      &to 7
+&kp TAB  &kp Q             &mt LC(LS(LALT)) W  &mt LC(LS(LA(LGUI))) E  &kp R       &kp T    &none                                                                        &none      &kp Y  &kp U       &mt LS(LA(LC(LCMD))) I  &mt LC(LS(LEFT_ALT)) O  &kp P                      &none
+&kp ESC  &mt LEFT_SHIFT A  &lt 2 S             &lt 3 D                 &lt 1 F     &lt 4 G  &none          &none                            &none      &none  &none      &none      &kp H  &kp J       &kp K                   &kp L                   &mt RIGHT_SHIFT SEMICOLON  &none
+&none    &kp Z             &mt LCTRL X         &mt LEFT_ALT C          &mt LCMD V  &kp B                                                    &none      &none                        &kp N  &mt RCMD M  &mt RIGHT_ALT COMMA     &mt RCTRL DOT           &kp FSLH                   &none
+&none    &none             &none               &none                   &none                &kp BACKSPACE  &mt LS(LA(LC(J))) LS(LA(LC(F)))  &none      &none  &kp ENTER  &kp SPACE         &none       &none                   &none                   &none                      &none
             >;
         };
 
